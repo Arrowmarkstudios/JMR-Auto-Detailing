@@ -1,0 +1,54 @@
+﻿body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: white;
+    text-align: center;
+}
+
+
+header {
+    background: black;
+    padding: 20px;
+}
+
+
+.hero {
+    padding: 60px 20px;
+    background: url('https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2') no-repeat center/cover;
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: red;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+
+.services {
+    padding: 40px 20px;
+}
+
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.card {
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+footer {
+    padding: 20px;
+    background: black;
+}
